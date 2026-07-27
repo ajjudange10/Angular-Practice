@@ -1,0 +1,14 @@
+.bn {
+  padding: 10px 16px;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(37, 99, 235, 0.25);
+}
+
+.bn:hover {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+}
