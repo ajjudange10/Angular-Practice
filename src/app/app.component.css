@@ -1,0 +1,54 @@
+:host {
+  display: block;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #1e3a8a;
+  margin: 0 0 8px;
+  font-size: 2rem;
+}
+
+.hight {
+  padding: 16px 20px;
+  margin: 0 0 24px;
+  width: 100%;
+  max-width: 420px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.page-grid > * {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+app-button,
+app-card,
+app-card1,
+app-header-card,
+app-info-card,
+app-profile-card,
+app-feature-card,
+app-alert-card,
+app-stats-card,
+app-testimonial-card,
+app-banner-card,
+app-footer-card {
+  display: flex;
+  width: 100%;
+}
